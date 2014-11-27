@@ -4,6 +4,7 @@
   "description": "A first test with SenecaJS",
   "main": "server.js",
   "dependencies": {
+    "seneca": "^0.5.21"
   },
   "devDependencies": {},
   "scripts": {
