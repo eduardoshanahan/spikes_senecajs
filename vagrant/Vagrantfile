@@ -13,6 +13,6 @@ Vagrant.configure("2") do |config|
 
     config.vm.provision :fabric do |fabric|
         fabric.fabfile_path = "../fabfile.py"
-        fabric.tasks = ["scripts.ubuntu.update", "scripts.nodejs.install", "scripts.ubuntu.cleanup_packages"]
+        fabric.tasks = ["scripts.ubuntu.update", "scripts.nodejs.install", "scripts.nodejs.tools.install", "scripts.ubuntu.cleanup_packages"]
     end
 end
