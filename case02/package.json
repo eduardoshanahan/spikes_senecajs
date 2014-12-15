@@ -1,0 +1,15 @@
+{
+  "name": "senecajs-case02",
+  "version": "0.1.0",
+  "description": "SenecaJS with functionality split in servers",
+  "main": "server.js",
+  "dependencies": {
+    "connect": "^3.3.3",
+    "seneca": "^0.5.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduardo Shanahan"
+}
