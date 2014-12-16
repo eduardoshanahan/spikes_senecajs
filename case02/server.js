@@ -1,11 +1,11 @@
-'use strict';
+// 'use strict';
 
-var seneca = require('seneca');
+var seneca = require('seneca')();
 
 seneca.add(
   {role:'math', cmd:'product'},
   function(args, callback) {
-    let product = args.left * args.right;
+    var product = args.left * args.right;
     callback(null, {answer: product});
   }
 )

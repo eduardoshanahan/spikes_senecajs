@@ -1,0 +1,15 @@
+{
+  "name": "senecajs-case03",
+  "version": "0.1.0",
+  "description": "SenecaJS from the git page",
+  "main": "node --harmony server.js",
+  "dependencies": {
+    "seneca": "^0.5.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduardo Shanahan",
+  "repository": "https://github.com/eduardoshanahan/spikes_senecajs"
+}

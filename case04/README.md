@@ -1,0 +1,1 @@
+The example from github, spliting between client and server
